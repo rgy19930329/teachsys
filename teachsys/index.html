@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>登录</title>
+
+<script type="text/javascript" src="static/js/jquery-1.8.2.min.js"></script>    
+    
+<link rel="stylesheet" type="text/css" href="static/css/base.css">
+<link rel="stylesheet" type="text/css" href="static/css/index.css">
+
+<style type="text/css">
+
+
+</style>
+</head>
+<body>
+
+	<div class="middle">	
+		<div class="head">
+			<div>
+				<img src="static/img/logo_school.png" />
+				<img src="static/img/class_logo.png" />
+			</div>
+			<div class="pr">
+				<div class="down_panel">
+					<img class="pen_img" src="static/img/login_pic.png">
+					<img src="static/img/login_left.jpg" />
+					<img class="right_img" src="static/img/login_right.jpg" />
+				</div>
+				<div class="login_panel">
+                    <form action="pages/TreatLogin.php" method="post" onsubmit="return check();">
+						<div>
+							<input type="text" name="loginID" id="loginID" placeholder="学号">
+						</div>
+						<div>
+							<input type="password" name="password" id="password" placeholder="密码">
+						</div>
+						<div>
+							<input id="stu" class="radio" type="radio" name="role" value="student" checked="checked"/><span>学生</span>
+							<input id="tea" class="radio" type="radio" name="role" value="teacher" /><span>教师</span>
+						</div>
+						<div><input type="submit" value="登  录"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<iframe class="foot" src="pages/footer.html"></iframe>
+
+	</div>
+	
+<script type="text/javascript">
+    
+$(".radio").click(function(){
+	$("#loginID").val("");
+	$("#password").val("");
+	if($("#stu").attr("checked")=="checked"){
+		$("#loginID").attr("placeholder", "学号");
+	}else{
+		$("#loginID").attr("placeholder", "工号");
+	}
+});
+
+</script>
+
+</body>
+</html>
+

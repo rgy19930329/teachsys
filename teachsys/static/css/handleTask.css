@@ -1,0 +1,170 @@
+body {
+	background: #eee;
+}
+
+.middle {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.head {
+	width: 100%;height: 100px;
+	background-image: url(../img/login_bg.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+ 	background-color: #eee;
+ 	position: fixed;
+ 	top: 0;left: 0;
+ 	z-index: 20;
+}
+
+.icon {
+	width: 70px;height: 70px;
+}
+
+.goback {
+	margin-left: 100px;margin-top: 10px;
+	float: left;
+}
+
+.goback:hover {
+	width: 75px;height: 75px;
+	margin-left: 97.5px;margin-top: 7.5px;
+}
+
+.quit {
+	margin-right: 100px;margin-top: 10px;
+	float: right;
+}
+
+.quit:hover {
+	width: 75px;height: 75px;
+	margin-right: 97.5px;margin-top: 7.5px;
+}
+
+.head_inner {
+	display: inline-block;
+	position: absolute;
+	width: 400px;
+	text-align: center;
+	top: 20px;left: 50%;
+	margin-left: -200px;
+}
+
+.head_inner span {
+	font: 40px "Microsoft YaHei";
+	font-weight: bold;
+}
+
+/*--------------------------*/
+
+.main {
+	margin-top: 120px;
+}
+
+h1 {
+	font: 30px/200% "Microsoft YaHei";
+}
+
+.main img {
+	width: 120px;height: 120px;
+}
+
+.main li {
+	float: left;
+	margin: 20px;
+}
+
+.top_div b {
+	display: block;
+	width: 120px;height: 120px;
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	border-radius: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 120px;
+	font-size: 30px;
+}
+
+.bottom_div a {
+	display: block;
+	margin: 5px auto;
+	text-decoration: none;
+	width: 100%;
+	background: #5599FF;
+	cursor: pointer;
+	text-align: center;
+	font: 18px "Microsoft YaHei";
+	color: #eee;
+	transition: all 200ms ease;
+}
+
+.bottom_div a:hover {
+	background: #5577FF;
+}
+
+.bottom_div .taskname {
+  font-size: 14px; 
+}
+
+/*--------------------------*/
+
+.foot {
+	height: 100px;
+	width: 100%;
+	margin-top: 50px;
+	border: none;
+}
+
+/*--------------------------------*/
+
+#uploadPanel {
+	position: absolute;
+	width: 400px;
+	background: #ddd;
+	left: 50%;top: -100px;
+	display: none;
+	margin-left: -200px;
+	z-index: 10;
+}
+
+#uploadPanel form {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#uploadPanel input[type="file"] {
+	width: 300px;height: 40px;
+	margin: 10px;margin-top: 0px;
+	font: 20px "Microsoft YaHei";
+}
+
+#uploadPanel input[type="submit"],#uploadPanel input[type="button"]{
+	width: 150px;
+	margin: 10px;margin-top: 0px;
+	font: 20px "Microsoft YaHei";
+	padding: 7px;
+}
+
+#uploadPanel .title {
+	font-size: 20px;
+	font-family: "Microsoft YaHei";
+	padding: 10px;
+	background-color: #bbb;
+}
+
+#score {
+    font: 20px "Microsoft YaHei";
+    margin: 10px;padding: 5px;
+}
+
+/*--------------------------------*/
+
+
+
+
+
+
+

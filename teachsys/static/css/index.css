@@ -1,0 +1,67 @@
+
+body {
+	background: url(../img/login_bg.jpg) repeat-x;
+}
+
+.middle {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.head {
+	margin-top: 80px;
+}
+
+.down_panel {
+	position: relative;
+}
+
+.pen_img {
+	position: absolute;
+	top: 30px;
+}
+
+.right_img {
+	position: relative;
+	right: 10px;
+}
+
+.login_panel {
+	width: 300px;
+	position: absolute;
+	top: 90px;right: 80px;
+}
+
+input[type="text"],input[type="password"] {
+	width: 240px;
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	padding: 5px;
+	margin: 10px auto;
+}
+
+input[type="button"],input[type="submit"] {
+	width: 255px;height: 45px;
+	font-family: "Microsoft YaHei";
+	font-size: 18px;
+	background: #5599FF;
+	border: none;
+	cursor: pointer;
+	transition:all 300ms ease;
+	margin-top: 10px;
+}
+
+input[type="button"]:hover,input[type="submit"]:hover {
+	background: #5577FF;
+}
+
+span {
+	font: 14px "Microsoft YaHei";
+}
+
+.foot {
+	position: absolute;
+	bottom: 0;
+	border: none;
+	width: 900px;
+}
